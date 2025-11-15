@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DopaLearn | Igniting Curiosity. Rewarding Insight.</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Define custom colors based on psychological principles */
+        :root {
+            --color-primary: #1E3A8A; /* Deep Indigo - Trust, Intelligence, Authority */
+            --color-secondary: #F59E0B; /* Vibrant Gold/Orange - Joy, Dopamine, Energy */
+            --color-accent: #06B6D4; /* Teal - Clarity, Innovation */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--color-primary);
+        }
+        /* Custom class for the dopamine spark effect */
+        .dopaspark {
+            box-shadow: 0 0 40px rgba(245, 158, 11, 0.6);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo: DopaLearn (Using an inline SVG to mock the "Sparking Neuron" logo concept) -->
+            <div class="flex items-center space-x-2">
+                <svg class="w-8 h-8 text-indigo-700" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Base Neuron/Brain Symbol -->
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2Z" fill="url(#dopaGradient)" opacity="0.15"/>
+                    <!-- Abstract Insight Path -->
+                    <path d="M12 5C14.7614 5 17 7.23858 17 10V14C17 16.7614 14.7614 19 12 19C9.23858 19 7 16.7614 7 14V10C7 7.23858 9.23858 5 12 5Z" stroke="#1E3A8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- The Dopamine Spark (Orange Highlight) -->
+                    <circle cx="17" cy="10" r="3" fill="#F59E0B" class="dopaspark" />
+                    <defs>
+                        <radialGradient id="dopaGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 12) rotate(90) scale(10)">
+                            <stop stop-color="#F59E0B"/>
+                            <stop offset="1" stop-color="#1E3A8A" stop-opacity="0.2"/>
+                        </radialGradient>
+                    </defs>
+                </svg>
+                <span class="text-2xl font-extrabold text-[var(--color-primary)]">DopaLearn</span>
+            </div>
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex space-x-8">
+                <a href="#science" class="text-sm font-medium text-gray-600 hover:text-[var(--color-secondary)] transition duration-200">Our Science</a>
+                <a href="#method" class="text-sm font-medium text-gray-600 hover:text-[var(--color-secondary)] transition duration-200">Methodology</a>
+                <a href="#global" class="text-sm font-medium text-gray-600 hover:text-[var(--color-secondary)] transition duration-200">Global Reach</a>
+            </nav>
+            <a href="#" class="hidden md:inline-flex px-4 py-2 text-sm font-bold bg-[var(--color-secondary)] text-white rounded-lg shadow-md hover:bg-yellow-600 transition duration-200">
+                Start Your Flow
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section: The Big Promise (Stimulates Aspiration & Joy) -->
+    <section class="relative overflow-hidden pt-16 pb-20 md:pt-24 md:pb-32 bg-[var(--color-primary)]">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <!-- Latin Motto (Authority & Timeless Wisdom) -->
+            <p class="text-xl font-semibold text-gray-300 uppercase tracking-widest mb-4">
+                "Inveni, Laetare." — Discover, and Rejoice.
+            </p>
+            
+            <!-- Headline: Focus on transformation and ease -->
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight text-white mb-6">
+                Turn Curiosity into <span class="text-[var(--color-secondary)] dopaspark inline-block">Unstoppable Insight</span>.
+            </h1>
+            
+            <!-- Subheadline: The core value proposition -->
+            <p class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-10">
+                DopaLearn is the global leader in neuro-centric education, engineering the perfect flow state to make learning intuitive, rewarding, and truly effortless.
+            </p>
+            
+            <!-- Primary CTA (Dopamine Color) -->
+            <a href="#" class="inline-block px-10 py-4 text-lg font-extrabold bg-[var(--color-secondary)] text-[var(--color-primary)] rounded-xl shadow-2xl hover:shadow-lg hover:bg-yellow-400 transition transform duration-300 ease-in-out hover:scale-105">
+                Experience the Flow State Today
+            </a>
+
+            <!-- Placeholder for visually interesting image/illustration suggesting breakthrough -->
+            <div class="mt-16 h-48 sm:h-64 bg-gray-700/30 rounded-2xl border-4 border-dashed border-gray-600 flex items-center justify-center">
+                <p class="text-gray-400 italic">
+                    [Placeholder: High-Concept 3D graphic illustrating interconnected neural pathways lighting up]
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Science Section: The Why (Trust & Credibility) -->
+    <section id="science" class="py-16 md:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold text-center mb-4">The DopaLearn Advantage</h2>
+            <p class="text-xl text-center text-gray-600 max-w-3xl mx-auto mb-16">
+                We don't just teach subjects; we engineer the optimal neurological condition for lasting mastery.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Card 1: Dopamine -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-[var(--color-secondary)]">
+                    <div class="text-3xl font-bold text-[var(--color-secondary)] mb-3">Dopamine Reward</div>
+                    <p class="text-gray-700">
+                        We design learning challenges that culminate in immediate, satisfying mental breakthroughs, directly triggering the brain's reward system for deep retention.
+                    </p>
+                </div>
+                <!-- Card 2: Flow State -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-[var(--color-accent)]">
+                    <div class="text-3xl font-bold text-[var(--color-accent)] mb-3">Cognitive Flow</div>
+                    <p class="text-gray-700">
+                        Content is presented at the optimal difficulty threshold, ensuring total immersion and concentration where self-doubt and distraction vanish.
+                    </p>
+                </div>
+                <!-- Card 3: Intuitive Mastery -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-[var(--color-primary)]">
+                    <div class="text-3xl font-bold text-[var(--color-primary)] mb-3">Intuitive Recall</div>
+                    <p class="text-gray-700">
+                        By linking new information to existing neural networks during peak engagement, we move learning beyond memorization into instinctive understanding.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Methodology Section: The Process (Clarity & Action) -->
+    <section id="method" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold text-center mb-12">Our Three-Step Learning Cycle</h2>
+            
+            <div class="relative flex flex-col md:flex-row justify-between items-center space-y-12 md:space-y-0 md:space-x-8">
+                
+                <!-- Connector Line for Desktop -->
+                <div class="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gray-300 -translate-y-1/2"></div>
+                <div class="hidden md:block absolute top-1/2 left-1/3 right-1/3 h-1 bg-[var(--color-accent)] -translate-y-1/2"></div>
+                
+                <!-- Step 1: Curiosity -->
+                <div class="w-full md:w-1/3 text-center relative z-10">
+                    <div class="mx-auto w-20 h-20 bg-[var(--color-primary)] text-white rounded-full flex items-center justify-center mb-4 shadow-xl border-4 border-white">
+                        <span class="text-3xl">❓</span> <!-- Question Mark Icon -->
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">1. Ignite</h3>
+                    <p class="text-gray-600">Start with a captivating mystery or challenge designed to maximize **curiosity**. We don't teach answers; we provoke questions.</p>
+                </div>
+
+                <!-- Step 2: Flow -->
+                <div class="w-full md:w-1/3 text-center relative z-10">
+                    <div class="mx-auto w-20 h-20 bg-[var(--color-accent)] text-white rounded-full flex items-center justify-center mb-4 shadow-xl border-4 border-white">
+                        <span class="text-3xl">🌊</span> <!-- Wave Icon -->
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">2. Immerse</h3>
+                    <p class="text-gray-600">The learner enters the **Flow State**, where the process feels intuitive, enjoyable, and time seems to disappear. Focus is maximized.</p>
+                </div>
+
+                <!-- Step 3: Insight/Reward -->
+                <div class="w-full md:w-1/3 text-center relative z-10">
+                    <div class="mx-auto w-20 h-20 bg-[var(--color-secondary)] text-white rounded-full flex items-center justify-center mb-4 shadow-xl border-4 border-white dopaspark">
+                        <span class="text-3xl">💡</span> <!-- Lightbulb Icon -->
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">3. Triumph</h3>
+                    <p class="text-gray-600">The breakthrough is achieved. The **dopamine reward** solidifies the knowledge, leading to a feeling of joy and lasting memory.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Global Reach & Local Brand Mention (Fikar Not) -->
+    <section id="global" class="py-16 md:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="bg-gray-200 p-8 rounded-2xl shadow-inner border border-gray-300">
+                <h3 class="text-3xl font-extrabold text-[var(--color-primary)] mb-3">Our Global Footprint</h3>
+                <p class="text-lg text-gray-700 mb-6">
+                    DopaLearn is the engine of educational innovation worldwide. Our core methodology is scientifically validated and adapted for diverse curricula across the globe. We believe that intuitive learning is universal.
+                </p>
+                <!-- CTA for Global Partners -->
+                <a href="#" class="inline-block text-[var(--color-primary)] font-bold border-b-2 border-dashed border-[var(--color-primary)] hover:border-solid transition duration-300">
+                    Explore Global Partnerships →
+                </a>
+            </div>
+
+            <!-- Fikar Not Callout -->
+            <div class="bg-white p-8 rounded-2xl shadow-xl border-4 border-[var(--color-secondary)]/50 transform hover:scale-[1.02] transition duration-300">
+                <p class="text-sm font-semibold text-gray-500 uppercase mb-2">Indian Market Focus</p>
+                <h3 class="text-4xl font-extrabold text-[var(--color-secondary)] mb-3">Fikar Not.</h3>
+                <p class="text-xl text-gray-700 mb-6 italic">
+                    "Fikar Not: Intuition Se Sikho."
+                </p>
+                <p class="text-gray-700">
+                    Our dedicated Indian brand, **Fikar Not**, applies the DopaLearn principles to local educational challenges, making high-stakes learning stress-free, accessible, and deeply rewarding for Indian students.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Final CTA Banner -->
+    <section class="bg-[var(--color-accent)] py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6">
+                Ready to Feel the Joy of True Understanding?
+            </h2>
+            <a href="#" class="inline-block px-10 py-4 text-xl font-extrabold bg-white text-[var(--color-primary)] rounded-xl shadow-2xl hover:shadow-lg hover:bg-gray-100 transition transform duration-300 ease-in-out hover:scale-105">
+                Join the DopaLearn Revolution
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="text-lg font-bold mb-4">DopaLearn</h4>
+                <p class="text-sm text-gray-400">Engineering the optimal flow state for global mastery.</p>
+                <p class="text-sm mt-4 text-gray-400">© 2025 DopaLearn Inc.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#science" class="text-gray-400 hover:text-[var(--color-secondary)]">The Science</a></li>
+                    <li><a href="#method" class="text-gray-400 hover:text-[var(--color-secondary)]">Our Process</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[var(--color-secondary)]">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-4">Global Brands</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="text-gray-400 hover:text-[var(--color-secondary)]">Fikar Not (India)</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[var(--color-secondary)]">Coming Soon...</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-4">Connect</h4>
+                <p class="text-sm text-gray-400">info@dopalearn.com</p>
+                <p class="text-sm mt-2 text-gray-400">+1 800-DOPA-LNK</p>
+                <div class="flex space-x-4 mt-4">
+                    <!-- Social icons placeholder -->
+                    <span class="text-gray-400 hover:text-white transition">X</span>
+                    <span class="text-gray-400 hover:text-white transition">FB</span>
+                    <span class="text-gray-400 hover:text-white transition">LN</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
